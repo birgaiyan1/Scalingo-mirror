@@ -1,0 +1,24 @@
+{
+ "name": "Telegram Video Merge Bot",
+ "description": "A Telegram Bot in Pyrogram by @GreyMatter_Bots",
+ "keywords": [
+  "telegram",
+  "video",
+  "merge",
+  "bot"
+ ],
+ "repository": "https://github.com/GreyMatter658/scalingo-mirror-leech-bot",
+ "website": "https://telegram.dog/GreyMatter_bots",
+ "stack": "container",
+ "env": {
+  "CONFIG_FILE_URL": {
+   "description": "Make Config on gist and paste raw link "
+  }
+ },
+ "formation": {
+  "worker": {
+   "quantity": 1,
+   "size": "free"
+  }
+ }
+}
